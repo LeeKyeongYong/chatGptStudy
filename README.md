@@ -3,7 +3,6 @@
 
 <hr/>
 ## 🎤 Spring Boot & ChatGPT Tutorial<br/>
-1. 포트폴리오 홈페이지<br/>
 <br/>
 ## 🔧 Tool & Skill Stack
 <table>
@@ -49,10 +48,10 @@
  https://dev-pengun.tistory.com/entry/Spring-Boot-CORS-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0<br/>
 ﻿https://www.youtube.com/watch?v=rdWavi2M2HE&t=327s<br/>   
 
-
+<br/><br/>
 ## 3. 완료일 : 2월 11일 <br/>
-
-###################################################<Br/>
+<br/><br/>
+###################################################<br/>
 MIT License
 
 Copyright (c) 2023 Kyungyong Lee
