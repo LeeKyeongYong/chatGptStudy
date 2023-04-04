@@ -1,6 +1,6 @@
-<center>
-# ![HiDoggyGIF](https://user-images.githubusercontent.com/81811670/229680287-97fa1e6a-8dd2-4254-9e42-ca74e88e428b.gif)
- </center>
+
+　　　　　　　　　　　　![HiDoggyGIF](https://user-images.githubusercontent.com/81811670/229680287-97fa1e6a-8dd2-4254-9e42-ca74e88e428b.gif)
+
 <hr/>
 ## 🎤 Spring Boot & ChatGPT Tutorial<br/>
 1. 포트폴리오 홈페이지<br/>
