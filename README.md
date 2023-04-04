@@ -44,10 +44,13 @@
 
 <br/>
 
-## 출처 <br/>
+## 2.출처 <br/>
  https://www.javastackflow.com/2023/01/how-to-use-chatgpt-with-spring-boot.html<br/>
  https://dev-pengun.tistory.com/entry/Spring-Boot-CORS-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0<br/>
 ﻿https://www.youtube.com/watch?v=rdWavi2M2HE&t=327s<br/>   
+
+
+## 3. 완료일 : 2월 11일 <br/>
 
 ###################################################<Br/>
 MIT License
