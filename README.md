@@ -49,7 +49,7 @@
  https://dev-pengun.tistory.com/entry/Spring-Boot-CORS-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0<br/>
 ﻿https://www.youtube.com/watch?v=rdWavi2M2HE&t=327s<br/>   
 
-###################################################
+###################################################<Br/>
 MIT License
 
 Copyright (c) 2023 Kyungyong Lee
