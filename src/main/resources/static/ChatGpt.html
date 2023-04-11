@@ -70,12 +70,10 @@
             contentType: 'application/json',
             data: JSON.stringify(data),
             success: function(data) {
-                console.dir(data);
-
-                console.log(data.selects[0].text);
+                console.log(data.choices[0].text);
 
                 let template = `<div class="line">
-                    <span class="chat-box">${ data.selects[0].text }</span>
+                    <span class="chat-box">${ data.choices[0].text }</span>
                 </div>`;
 
                 $('.chat-content').append(template);
