@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Tutorial</title>
+    <style>
+        .h2-title {
+            margin-top: 30px;
+        }
+        .div-chats {
+            height: 500px;
+            /* border: 1px solid black; */
+        }
+        .chat-content {
+            height: 500px;
+            overflow-y: scroll;
+        }
+        .line {
+            margin-top: 10px;
+            display: flex;
+        }
+        .chat-box {
+            background: #eee;
+            padding: 5px;
+            max-width: 50%;
+        }
+        .mine {
+            margin-left: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="text-center">
+    <h2 class="h2-title">ChatGPT Tutorial</h2>
+    <div class="chat-content">
+        <div class="line">
+            <span class="chat-box">안녕하세요. 무엇이든 물어보세요!</span>
+        </div>
+    </div>
+
+    <div>
+        <div class="mt-3">
+            <label for="input">질문</label>
+            <input type="text" id="input">
+            <button onclick="sendQuestion()" variant="info">전송</button>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    const BASE_URL = 'http://localhost:8080/chat-gpt'
+
+    function sendQuestion() {
+        let question = $('#input').val();
+        let template = `<div class="line">
+			<span class="chat-box mine">${ question }</span>
+		</div>`;
+        $('.chat-content').append(template);
+
+        let data = {
+            'quest' : question
+        };
+
+        $.ajax({
+            url: BASE_URL + '/question',
+            type: 'POST',
+            dataType: 'json',
+            contentType: 'application/json',
+            data: JSON.stringify(data),
+            success: function(data) {
+                console.dir(data);
+
+                console.log(data.selects[0].text);
+
+                let template = `<div class="line">
+                    <span class="chat-box">${ data.selects[0].text }</span>
+                </div>`;
+
+                $('.chat-content').append(template);
+
+            },
+            error: function(error) {
+                console.error(error);
+            }
+        });
+    }
+</script>
+</body>
+</html>
