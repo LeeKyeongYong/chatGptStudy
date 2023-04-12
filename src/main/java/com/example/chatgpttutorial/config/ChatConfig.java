@@ -3,7 +3,7 @@ package com.example.chatgpttutorial.config;
 public class ChatConfig {
     public static final String AUTHORIZATION = "Authorization";
     public static final String BEARER = "Bearer ";
-    public static final String API_KEY = "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";
+    public static final String API_KEY = "Your-API-Key";
     public static final String MODEL = "text-davinci-003";
     public static final Integer MAX_TOKEN = 300;
     public static final Double TEMPERATURE = 0.0;
