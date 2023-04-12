@@ -71,7 +71,7 @@
             data: JSON.stringify(data),
             success: function(data) {
                 console.log(data.choices[0].text);
-
+                console.dir(data);
                 let template = `<div class="line">
                     <span class="chat-box">${ data.choices[0].text }</span>
                 </div>`;

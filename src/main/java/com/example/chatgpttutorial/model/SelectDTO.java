@@ -10,7 +10,6 @@ import java.io.Serializable;
 @Getter
 @NoArgsConstructor
 public class SelectDTO implements Serializable {
-
     private String text;
     private Integer index;
     @JsonProperty("finish_reason")

@@ -4,9 +4,10 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-import java.util.*;
 import java.io.Serializable;
 import java.time.LocalDate;
+import java.util.List;
+
 @Getter
 @NoArgsConstructor
 public class ChatRespDTO implements Serializable {
