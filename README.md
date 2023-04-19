@@ -49,8 +49,8 @@
 ﻿https://www.youtube.com/watch?v=rdWavi2M2HE&t=327s<br/>   
 
 <br/><br/>
-## 3. 완료일 : 2월 11일 <br/>
-https://blog.naver.com/sleekydz86/223012301042
+## 3. 완료일 : 2022년 09월 22일 <br/>
+https://blog.naver.com/sleekydz86/222881686248
 <br/><br/>
 ###################################################<br/>
 MIT License
