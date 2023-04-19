@@ -2,7 +2,7 @@
 　　　　　　　　　　　　![HiDoggyGIF](https://user-images.githubusercontent.com/81811670/229680287-97fa1e6a-8dd2-4254-9e42-ca74e88e428b.gif)
 
 <hr/>
-## 🎤 Validation in Spring(검증)<br/>
+## 🎤 Spring Boot & ChatGPT Tutorial<br/>
 <br/>
 ## 🔧 Tool & Skill Stack
 <table>
@@ -49,8 +49,8 @@
 ﻿https://www.youtube.com/watch?v=rdWavi2M2HE&t=327s<br/>   
 
 <br/><br/>
-## 3. 완료일 : 2022년 09월 22일 <br/>
-https://blog.naver.com/sleekydz86/222881686248
+## 3. 완료일 : 2월 11일 <br/>
+https://blog.naver.com/sleekydz86/223012301042
 <br/><br/>
 ###################################################<br/>
 MIT License
